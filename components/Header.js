@@ -1,16 +1,19 @@
 import Head from 'next/head';
+import TopMenu from "./TopMenu";
+import MainMenuWrapper from "./MainMenuWrapper";
+import MobileMenuMain from "./MobileMenuMain";
 import styles from '../styles/Navbar.module.css';
 
 function Header()
 {
     return (
-        <div className={styles.a}>
-            <Head>
-                <title>Hotelier</title>
-                <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-            </Head>
-            <a>Header</a>
-        </div>
+        <>
+            <div className="main_wrapper">
+                <TopMenu />
+                <MainMenuWrapper />
+                <MobileMenuMain />
+            </div>
+        </>
     )
 }
 
