@@ -6,8 +6,6 @@ function Layout(props)
 {
     return (
         <>
-            <a href="javascript:" id="return-to-top"><i className="fas fa-sort-up"></i></a>
-            <Header />
             {props.children}
             <Footer />
             <BottomFooter />

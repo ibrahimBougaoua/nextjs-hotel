@@ -1,3 +1,4 @@
+import HomeHeader from "../components/HomeHeader"
 import Blog from "../components/Blog"
 import Gallery from "../components/Gallery"
 import News from "../components/News"
@@ -10,6 +11,7 @@ import Contact from "../components/Contact"
 export default function Home() {
   return (
       <>
+        <HomeHeader />
         <Services />
         <Slider />
         <TDest />
