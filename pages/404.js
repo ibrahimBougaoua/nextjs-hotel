@@ -1,9 +1,17 @@
+import Header from "../components/Header"
+import SBanner from "../components/SBanner"
+import PageIsntAvailable from "../components/PageIsntAvailable"
+import Newsletter from "../components/Newsletter"
+
 function Error()
 {
     return (
-        <div>
-            Error
-        </div>
+        <>
+            <Header />
+            <SBanner />
+            <PageIsntAvailable />
+            <Newsletter />
+        </>
     )
 }
 

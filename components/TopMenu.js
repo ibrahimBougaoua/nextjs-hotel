@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 function TopMenu()
 {
     return (
@@ -45,7 +47,8 @@ function TopMenu()
                                 </li>
                                 <li className="n-disp"><a href="javascript:;"><i className="fas fa-phone-alt"></i> &nbsp;+1808
                                         111 9999</a></li>
-                                <li className="n-border res-pd"><a href="signup.html">SING In</a>
+                                <li className="n-border res-pd">
+                                    <Link href="/user/signin">SING In</Link>
                                 </li>
                             </ul>
                         </div>

@@ -1,7 +1,9 @@
 import Head from "next/head"
-import Link from "next/link";
+import Header from "../../components/Header"
+import SbGridMain from "../../components/hotel/SbGridMain";
+import Newsletter from "../../components/Newsletter";
 
-export default function Hotels(props)
+export default function Hotels()
 {
     return (
         <div>
@@ -9,46 +11,9 @@ export default function Hotels(props)
                 <title>Hotels</title>
                 <meta name="description" content="Hotels" />
             </Head>
-            {props.hotles.map(hotel => (
-                <div>
-                    <Link href={`/hotels/${hotel.id}`} key={hotel.id}>
-                        {hotel.title}
-                    </Link>
-                </div>
-            ))}
-            Hotels
+            <Header />
+            <SbGridMain />
+            <Newsletter />
         </div>
     )
-}
-
-/*
-export async function getStaticPaths()
-{
-    const res = await fetch("https://jsonplaceholder.typicode.com/posts?_limit=10");
-    const data = await res.json();
-
-    const paths = data.map(d => {
-        return {
-            params : {
-                id : `${d.id}`
-            }
-        }
-    })
-    return {
-        paths : paths,
-        fallback : false,
-    }
-}
-*/
-
-export async function getStaticProps()
-{
-    const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-    const data = await res.json();
-
-    return {
-        props : {
-            hotles : data
-        }
-    }
 }
