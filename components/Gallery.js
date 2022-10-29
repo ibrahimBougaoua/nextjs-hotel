@@ -1,4 +1,5 @@
 import styles from '../styles/Navbar.module.css';
+import Image from 'next/image'
 
 function Gallery()
 {
@@ -43,7 +44,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-1.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-1.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -73,7 +74,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-2.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-2.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -103,7 +104,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-3.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-3.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -133,7 +134,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-4.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-4.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -163,7 +164,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-6.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-6.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -193,7 +194,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-7.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-7.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -223,7 +224,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-8.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-8.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -252,7 +253,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-6.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-6.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -294,7 +295,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-7.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-7.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -324,7 +325,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-5.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-5.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -354,7 +355,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-5.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-5.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -384,7 +385,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-6.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-6.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -425,7 +426,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-1.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-1.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -455,7 +456,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-4.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-4.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -485,7 +486,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-2.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-2.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -515,7 +516,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-5.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-5.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -556,7 +557,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-8.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-8.jpg"
                                                                     alt="" /></a>
 
                                                         </div>
@@ -586,7 +587,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-6.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-6.jpg"
                                                                     alt="" /></a>
                                                         </div>
                                                         <span>$50 / Night</span>
@@ -628,7 +629,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-8.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-8.jpg"
                                                                     alt="" /></a>
                                                         </div>
                                                         <span>$50 / Night</span>
@@ -657,7 +658,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-4.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-4.jpg"
                                                                     alt="" /></a>
                                                         </div>
                                                         <span>$50 / Night</span>
@@ -686,7 +687,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-3.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-3.jpg"
                                                                     alt="" /></a>
                                                         </div>
                                                         <span>$50 / Night</span>
@@ -715,7 +716,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-3.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-3.jpg"
                                                                     alt="" /></a>
                                                         </div>
                                                         <span>$50 / Night</span>
@@ -744,7 +745,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-2.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-2.jpg"
                                                                     alt="" /></a>
                                                         </div>
                                                         <span>$50 / Night</span>
@@ -773,7 +774,7 @@ function Gallery()
                                                     <div className="img-sec p-rel">
                                                         <div className="hover-img p-rel">
 
-                                                            <a href="javascript:;"><img src="images/gallery-6.jpg"
+                                                            <a href="javascript:;"><Image src="images/gallery-6.jpg"
                                                                     alt="" /></a>
                                                         </div>
                                                         <span>$50 / Night</span>

@@ -1,4 +1,6 @@
+/* eslint-disable jsx-a11y/role-supports-aria-props */
 import Link from 'next/link';
+import Image from 'next/image'
 
 function MainMenuNavbar()
 {
@@ -8,7 +10,7 @@ function MainMenuNavbar()
                 <div className="row align-items-center">
                     <div className="col-xl-4 col-lg-2 col-6">
                         <a className="navbar-brand" href="index-01.html">
-                            <img src="images/logo.png" alt="" />
+                            <Image src="images/logo.png" alt="" />
                         </a>
                     </div>
                     <div className="col-xl-3 col-lg-2 col-6 d-block d-lg-none">

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 export default function SignupForm()
 {
@@ -50,7 +51,7 @@ export default function SignupForm()
                                     <a href="dashboard.html" class="l-btn-clr">log in</a>
                                 </div>
                                 <div id="top-border">
-                                    <a href="javascript:;">Dont't have an account/</a>
+                                    <a href="javascript:;">Don't have an account/</a>
                                     <a href="javascript:;" id="sign-btn">sign up</a>
                                 </div>
                             </form>
