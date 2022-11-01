@@ -1,4 +1,5 @@
 import styles from '../styles/Navbar.module.css';
+import Image from 'next/image'
 
 function Video()
 {
@@ -8,7 +9,7 @@ function Video()
                 <div className="row">
                     <div className="col-lg-4 col-md-4 col-sm-12 col-12">
                         <div className="video-icon" data-bs-toggle="modal" data-bs-target="#exampleModal-1">
-                            <a href="javascript:;"> <img src="images/Play-Icon.png" alt="" /></a>
+                            <a href="javascript:;"> <Image src="images/Play-Icon.png" alt="" /></a>
                         </div>
                         <div className="modal fade" id="exampleModal-1" tabindex="-1" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered">

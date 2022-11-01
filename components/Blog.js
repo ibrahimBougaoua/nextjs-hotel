@@ -1,4 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from '../styles/Navbar.module.css';
+import Image from 'next/image'
 
 function Blog()
 {
@@ -32,7 +34,7 @@ function Blog()
                                             <i className="far fa-star"></i><i className="far fa-star"></i>
                                         </p>
                                         <div className="blog-slider-cont">
-                                            <img src="images/team.jpg" alt="" />
+                                            <Image src="images/team.jpg" alt="" />
                                             <p>“ Nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate rsus a
                                                 sit amet mauris. Morbi san ips velit. Namec tellus a odio ti odio. ”
                                                 <a href="">~ Akshay Handge ~</a>
@@ -51,7 +53,7 @@ function Blog()
                                             <i className="far fa-star"></i><i className="far fa-star"></i>
                                         </p>
                                         <div className="blog-slider-cont">
-                                            <img src="images/team.jpg" alt="" />
+                                            <Image src="images/team.jpg" alt="" />
                                             <p>“ Nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate rsus a
                                                 sit amet mauris. Morbi san ips velit. Namec tellus a odio ti odio. ”
                                                 <a href="">~ Ajay S. ~</a>
@@ -70,7 +72,7 @@ function Blog()
                                             <i className="far fa-star"></i><i className="far fa-star"></i>
                                         </p>
                                         <div className="blog-slider-cont">
-                                            <img src="images/team.jpg" alt="" />
+                                            <Image src="images/team.jpg" alt="" />
                                             <p>“ Nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate rsus a
                                                 sit amet mauris. Morbi san ips velit. Namec tellus a odio ti odio. ”
                                                 <a href="">~ Arun S. ~</a>

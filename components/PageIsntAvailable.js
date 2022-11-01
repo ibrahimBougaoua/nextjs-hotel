@@ -1,4 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from '../styles/Navbar.module.css';
+import Image from 'next/image'
 
 function PageIsntAvailable()
 {
@@ -9,13 +11,13 @@ function PageIsntAvailable()
                     <div className="col-lg-4 col-md-6 col-xs-12 col-sm-12">
                         <div className="main_wrapper_three_img">
                             <div className="wheel_img_one_wrapper">
-                                <img src="images/wheel_img_1.png" className="img-responsive" alt="logo_img" />
+                                <Image src="images/wheel_img_1.png" className="img-responsive" alt="logo_img" />
                             </div>
                             <div className="wheel_img_two_wrapper">
-                                <img src="images/wheel_img_2.png" className="img-responsive" alt="logo_img" />
+                                <Image src="images/wheel_img_2.png" className="img-responsive" alt="logo_img" />
                             </div>
                             <div className="wheel_img_three_wrapper">
-                                <img src="images/wheel_img_3.png" className="img-responsive" alt="logo_img" />
+                                <Image src="images/wheel_img_3.png" className="img-responsive" alt="logo_img" />
                             </div>
                         </div>
                     </div>

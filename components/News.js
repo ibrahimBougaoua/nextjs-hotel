@@ -1,4 +1,5 @@
 import styles from '../styles/Navbar.module.css';
+import Image from 'next/image'
 
 function News()
 {
@@ -14,7 +15,7 @@ function News()
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                         <div className="sb-news-blog">
                             <div className="news-img">
-                                <img src="images/news-blog-1.jpg" alt="" />
+                                <Image src="images/news-blog-1.jpg" alt="" />
                             </div>
                             <div className="news-cont">
                                 <a href="javascript:;"> <span><i className="far fa-calendar"></i> &nbsp; April 4, 2022
@@ -29,7 +30,7 @@ function News()
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                         <div className="sb-news-blog">
                             <div className="news-img">
-                                <img src="images/news-blog-2.jpg" alt="" />
+                                <Image src="images/news-blog-2.jpg" alt="" />
                             </div>
                             <div className="news-cont">
                                 <a href="javascript:;"> <span><i className="far fa-calendar"></i> &nbsp; April 4, 2022
@@ -44,7 +45,7 @@ function News()
                     <div className="col-lg-4 col-md-6 col-sm-12 col-12">
                         <div className="sb-news-blog">
                             <div className="news-img">
-                                <img src="images/news-blog-3.jpg" alt="" />
+                                <Image src="images/news-blog-3.jpg" alt="" />
                             </div>
                             <div className="news-cont">
                                 <a href="javascript:;"> <span><i className="far fa-calendar"></i> &nbsp; April 4, 2022

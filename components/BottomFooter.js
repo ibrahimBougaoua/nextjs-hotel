@@ -1,4 +1,5 @@
 import styles from '../styles/Navbar.module.css';
+import Image from 'next/image'
 
 function BottomFooter()
 {
@@ -12,19 +13,19 @@ function BottomFooter()
                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                 <ul>
                                     <li>
-                                        <a href=""> <img src="images/icon-logo-1.jpg" alt="" /></a>
+                                        <a href=""> <Image src="images/icon-logo-1.jpg" alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href=""><img src="images/icon-logo-2.jpg" alt="" /></a>
+                                        <a href=""><Image src="images/icon-logo-2.jpg" alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href=""><img src="images/icon-logo-3.jpg" alt="" /></a>
+                                        <a href=""><Image src="images/icon-logo-3.jpg" alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href=""><img src="images/icon-logo-4.jpg" alt="" /></a>
+                                        <a href=""><Image src="images/icon-logo-4.jpg" alt="" /></a>
                                     </li>
                                     <li>
-                                        <a href="">  <img src="images/icon-logo-5.jpg" alt="" /></a>
+                                        <a href="">  <Image src="images/icon-logo-5.jpg" alt="" /></a>
                                     </li>
                                 </ul>
                             </div>

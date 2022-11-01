@@ -1,10 +1,12 @@
+import Image from 'next/image'
+
 function MobileMenuMain()
 {
     return (
         <div id="sidebar">
             <div className="sidebar_logo">
                 <a href="index-01.html">
-                    <img src="images/logo.png" alt="" />
+                    <Image src="images/logo.png" alt="" />
                 </a>
             </div>
             <div id='cssmenu'>

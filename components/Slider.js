@@ -1,4 +1,5 @@
 import styles from '../styles/Navbar.module.css';
+import Image from 'next/image'
 
 function Slider()
 {
@@ -13,7 +14,7 @@ function Slider()
                                 <div className="sub-main">
                                     <div className="img-sec p-rel">
                                         <div className="hover-img p-rel">
-                                            <a href="javascript:;"> <img src="images/blog-1.jpg" alt="" /></a>
+                                            <a href="javascript:;"> <Image src="images/blog-1.jpg" alt="" /></a>
                                         </div>
                                         <span>$77 / Night</span>
                                     </div>
@@ -34,7 +35,7 @@ function Slider()
                             <div className="item">
                                 <div className="img-sec p-rel">
                                     <div className="hover-img p-rel">
-                                        <a href="javascript:;"> <img src="images/blog-2.jpg" alt="" /></a>
+                                        <a href="javascript:;"> <Image src="images/blog-2.jpg" alt="" /></a>
                                     </div>
                                     <span>$50 / Night</span>
                                 </div>
@@ -55,7 +56,7 @@ function Slider()
                                 <div className="img-sec p-rel">
                                     <div className="hover-img p-rel">
 
-                                        <a href="javascript:;"> <img src="images/blog-3.jpg" alt="" /></a>
+                                        <a href="javascript:;"> <Image src="images/blog-3.jpg" alt="" /></a>
 
                                     </div>
                                     <span>$72 / Night</span>
@@ -76,7 +77,7 @@ function Slider()
                             <div className="item">
                                 <div className="img-sec p-rel">
                                     <div className="hover-img p-rel">
-                                        <a href="javascript:;"> <img src="images/blog-1.jpg" alt="" /></a>
+                                        <a href="javascript:;"> <Image src="images/blog-1.jpg" alt="" /></a>
                                     </div>
                                     <span>$65 / Night</span>
                                 </div>
@@ -97,7 +98,7 @@ function Slider()
                             <div className="item">
                                 <div className="img-sec p-rel">
                                     <div className="hover-img p-rel">
-                                        <a href="javascript:;"> <img src="images/blog-2.jpg" alt="" /></a>
+                                        <a href="javascript:;"> <Image src="images/blog-2.jpg" alt="" /></a>
                                     </div>
                                     <span>$52 / Night</span>
                                 </div>
@@ -116,7 +117,7 @@ function Slider()
                             <div className="item">
                                 <div className="img-sec p-rel">
                                     <div className="hover-img p-rel">
-                                        <a href="javascript:;"> <img src="images/blog-3.jpg" alt="" /></a>
+                                        <a href="javascript:;"> <Image src="images/blog-3.jpg" alt="" /></a>
                                     </div>
                                     <span>$55 / Night</span>
                                 </div>
